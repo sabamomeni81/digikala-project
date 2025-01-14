@@ -1,0 +1,91 @@
+.read {
+  width: 100%;
+  height: 360px;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  .read-center {
+    width: var(--width-center);
+    height: 100%;
+    .read-center-top {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      flex-flow: row wrap;
+      .read-center-top-right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-right: 5px;
+        padding-right: 20px;
+        .read-center-top-right-text {
+          font-family: var(--font-family);
+          font-size: 20px;
+          font-weight: normal;
+          color: #0c0c0c;
+        }
+      }
+      .read-center-top-left-link {
+        width: 50%;
+        height: 100%;
+        display: block;
+        text-decoration: none;
+        .read-center-top-left {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-end;
+          align-items: center;
+          padding-left: 20px;
+
+          .read-center-top-left-text {
+            font-family: var(--font-family);
+            font-size: 19px;
+            color: #19bfd3;
+            font-weight: normal;
+          }
+          .read-center-top-left-img-direction {
+            width: 22px;
+            height: 22px;
+            padding-top: 2px;
+          }
+        }
+      }
+    }
+    .read-center-bottom {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      .read-center-bottom-link {
+        text-decoration: none;
+        .read-center-bottom-items {
+          width: 315px;
+          height: 280px;
+          border-radius: 10px;
+          border: 1px solid #e0e0e2;
+          .read-center-bottom-items-img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          }
+          .read-center-bottom-items-text{
+            font-family: var(--font-family);
+            font-size: 13px;
+            padding: 10px;
+            color: #0c0c0c;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.information {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 30px;
+  .information-item {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 40px;
+    padding-right: 20px;
+    .information-item-title {
+      font-family: var(--font-family);
+      font-size: 16px;
+      color: #3f4064;
+      font-weight: bold;
+    }
+    .information-item-text-link {
+      text-decoration: none;
+      font-family: var(--font-family);
+      font-size: 14px;
+      color: #81858b;
+    }
+  }
+  .information-with-us {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 40px;
+    .with-us-text {
+      font-family: var(--font-family);
+      font-size: 16px;
+      color: #3f4064;
+      font-weight: bold;
+      padding-right: 20px;
+      padding-bottom: 10px;
+    }
+    .information-with-us-item {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 30px;
+      padding-right: 20px;
+      .information-with-us-item-img {
+        width: 45px;
+        height: 45px;
+      }
+    }
+    .information-email-text {
+      font-family: var(--font-family);
+      font-size: 16px;
+      color: #3f4064;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+  }
+  .information-email {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    .information-email-input {
+      width: 262px;
+      height: 50px;
+      padding-right: 16px;
+      background-color: #f0f0f1;
+      border-radius:8px;
+      font-family: var(--font-family);
+      border: none;
+      font-size: 15px;
+    }
+    .information-email-submit{
+      width: 55px;
+      height: 50px;
+      background-color: #e0e0e0;
+      border: none;
+      border-radius: 8px;
+      font-family: var(--font-family);
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+}

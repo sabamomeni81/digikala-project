@@ -1,0 +1,22 @@
+.Boot {
+  width: 100%;
+  height: 170px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Boot-center {
+    width: var(--width-center);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 1300px;
+      height: 100%;
+      border-radius: 15px;
+      align-items: center;
+    }
+  }
+}

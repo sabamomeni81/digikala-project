@@ -1,0 +1,72 @@
+.download {
+  width: 100%;
+  height: 76px;
+  padding: 0px 20px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .download-center {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #3c4b6d;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 20px;
+    .download-right {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 15px;
+
+      .dowmload-right-img {
+        width: 44px;
+        height: 44px;
+      }
+      .download-right-text {
+        width: 230px;
+        height: 45px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .download-text-right {
+          font-family: var(--font-family);
+          font-size: 21px;
+          color: #ffffff;
+        }
+      }
+    }
+    .download-left {
+      width: 73%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      align-items: center;
+      column-gap: 15px;
+      .download-left-img {
+        width: 142px;
+        height: 44px;
+      }
+      .download-left-square {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .download-left-more {
+        width: 44px;
+        height: 44px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        font-size: 15px;
+      }
+    }
+  }
+}

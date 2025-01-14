@@ -1,0 +1,119 @@
+.footer-images-1 {
+  width: 100%;
+  height: 7.5%;
+  display: flex;
+  background-color: #f0f0f1;
+  .footer-images-top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e2;
+    .images-top-part {
+      width: 12%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #e0e0e2;
+      .link-footer-img {
+        width: 191px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .img-1 {
+          width: 107.05px;
+          height: 20px;
+        }
+        .img-2 {
+          width: 75.29px;
+          height: 20px;
+        }
+        .img-3 {
+          width: 132.3px;
+          height: 20px;
+        }
+        .img-4 {
+          width: 67.6px;
+          height: 20px;
+        }
+        .img-5 {
+          width: 74.63px;
+          height: 20px;
+        }
+        .img-6 {
+          width: 82.5px;
+          height: 20px;
+        }
+        .img-7 {
+          width: 125px;
+          height: 20px;
+        }
+        .img-8 {
+          width: 85px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+.footer-images-2 {
+  width: 100%;
+  height: 7.5%;
+  display: flex;
+  background-color: #f0f0f1;
+  .footer-images-bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    .images-bottom-part {
+      width: 16%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #e0e0e2;
+      .link-footer-bottom {
+        width: 254.66px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .img-bottom-1 {
+          width: 121.25px;
+          height: 20px;
+        }
+        .img-bottom-2 {
+          width: 83.53 px;
+          height: 20px;
+        }
+        .img-bottom-3 {
+          width: 57.5px;
+          height: 20px;
+        }
+        .img-bottom-4 {
+          width: 160 px;
+          height: 20px;
+        }
+        .img-bottom-5 {
+          width: 153.75px;
+          height: 20px;
+        }
+        .img-bottom-6 {
+          width: 138.75 px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+.border-left-footer {
+  border-left: none;
+}
