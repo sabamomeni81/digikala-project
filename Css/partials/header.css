@@ -7,7 +7,6 @@
   right: 0;
   top: 0;
   background-color: #ffffff;
-
   z-index: 20;
   .header-banner {
     width: 100%;
@@ -135,9 +134,11 @@
           text-decoration: none;
           line-height: 40px;
           display: flex;
+          flex-flow: row wrap;
           align-items: center;
           column-gap: 5px;
           position: relative;
+        
         }
         .submenu {
           z-index: 2;
